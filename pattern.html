@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		  <script src="js/jquery-3.3.1.js"></script><!--Библиотека jquery-->
+		<script src="js/show.js?<?php echo time();?>"></script>
+		<title>Угадай аниме опенинг</title>
+	</head>
+	<body>
+		<div class="ClearFix">
+			<header>
+				
+					<div class="logo">
+						<h1>Угадай аниме опенинг (test ver.)</h1>
+					</div>
+					
+					<ul class="nav">
+						<li><a href="#" class="active">Main</a></li>
+						<li><a href="#">About</a></li>
+				
+					</ul>
+				
+			</header>
+			<div class="content">
+				<!-- <aside> -->
+					<!-- <ul class="leftNav"> -->
+						<!-- <li><a href="#">Natus error sit voluptatem</a></li> -->
+						<!-- <li><a href="#">Et veritatis quasi</a></li> -->
+						<!-- <li><a href="#">Vitae dicta sunt explicabo</a></li> -->
+						<!-- <li><a href="#">Nectun sed quia conseq</a></li> -->
+						<!-- <li><a href="#">Natus error sit voluptatem</a></li> -->
+					<!-- </ul> -->
+					<!-- <div class="block"> -->
+						<!-- <h3>Left Block</h3> -->
+						<!-- <p><i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</i></p> -->
+						<!-- <p><a href="#" class="more">Read more »</a></p> -->
+					<!-- </div> -->
+				<!-- </aside> -->
+				<article>
+					<h2>Угадай аниме опенинг!</h2>
+					<p>Выберете уровень сложности. Прослушайте видеофрагмент и попытайтесь угадать опенинг. Если уже угадали нажмите на прямоугольник ниже:</p>
+					<hr>
+					<p>Выбраный уровень сложности: <span id="diff">-</span></p>
+					<form>
+						<input type="radio" name="ch1" value="easy"> Легкий<input name="ch1" type="radio" value="medium">Средний <input name="ch1" type="radio" value="hard"> Сложный
+					</form>
+					<br>
+					<button id="nextVid">Начать</button>
+					<div class="vidWrap">
+					<span id="blk" class=""></span>
+					<iframe class="vidFrame" id="nxt"  src="">Ваш браузер не поддерживает фреймы</iframe>
+					</div>
+					
+					
+					<!--Формы-->
+					
+					
+				</article>
+			</div>
+			<footer>
+				<p>&copy; Htie dgH<br>Цифровой контент и хорошее настроение!</p>
+			</footer>
+		</div>
+  
+	</body>
+</html>
